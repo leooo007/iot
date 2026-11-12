@@ -1,0 +1,6 @@
+sudo dnf install -y httpd
+sudo yum update -y
+sudo systemctl start httpd
+sudo systemctl enable httpd
+sudo systemctl status httpd
+sudo nano index.html
